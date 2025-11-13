@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Detalhes do usuário</h2>
+<ul>
+  <li><strong>Nome:</strong> {{ user['nome'] }}</li>
+  <li><strong>Email:</strong> {{ user['email'] }}</li>
+  <li><strong>CPF:</strong> {{ user['cpf'] or '-' }}</li>
+  <li><strong>Telefone:</strong> {{ user['telefone'] or '-' }}</li>
+  <li><strong>Perfil:</strong> {{ user['perfil'] }}</li>
+  <li><strong>Criado em:</strong> {{ user['criado_em'] }}</li>
+</ul>
+<a href="{{ url_for('index') }}">Voltar</a>
+{% endblock %}
