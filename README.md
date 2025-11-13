@@ -62,13 +62,13 @@ As senhas devem ser armazenadas em formato de hash e o sistema deve validar dado
 <img width="726" height="437" alt="Caso de uso" src="https://github.com/user-attachments/assets/dc690e35-393e-4963-b0de-4f3e7594c12b" />
 
 
-#RELATÓRIO FINAL – SISTEMA DE CADASTRO DE USUÁRIOS
+# RELATÓRIO FINAL – SISTEMA DE CADASTRO DE USUÁRIOS
 . Introdução
 
 O nosso relatório apresento o Sistema de Cadastro de Usuários, realizado em duas etapas principais: FASE 1 (Frontend) e FASE 2 (Backend e Banco de Dados).
 O projeto visa criar uma aplicação funcional capaz de registrar, armazenar e gerenciar informações de usuários, utilizando tecnologias web modernas e banco de dados relacional.
 
-#Objetivos do Projeto
+# Objetivos do Projeto
 
 Criar um sistema de cadastro de usuários funcional e intuitivo.
 
@@ -78,7 +78,7 @@ Utilizar o Flask (framework em Python) e o SQLite para armazenar as informaçõe
 
 Elaborar a documentação completa do sistema.
 
-#3. FASE 1 – Documentação
+# 1. FASE 1 – Documentação
 
 Foi desenvolvido um protótipo funcional da interface do sistema em HTML e CSS, com os seguintes elementos:
 
@@ -90,9 +90,9 @@ Botão de “Cadastrar”
 
 Layout responsivo e visual limpo.
 
-#4. FASE 2 –Banco de Dados e Backend
+# 2. FASE 2 –Banco de Dados e Backend
 
-#Flask é um microframework em Python.
+# Flask é um microframework em Python.
 Principais características:
 
 Leve e flexível.
@@ -100,7 +100,7 @@ Facilmente integrável com HTML e CSS.
 Permite conexão com bancos de dados como SQLite, MySQL e PostgreSQL.
 Possui sistema de rotas e templates (Jinja2).
 
-#Pesquisa sobre o SQLite
+# Pesquisa sobre o SQLite
 SQLite é um banco de dados relacional leve e embutido.
 Características:
 
@@ -109,6 +109,6 @@ Não precisa de servidor dedicado.
 Ideal para projetos pequenos e médios.
 Compatível com o Flask através da biblioteca sqlite3.
 
-#5. Conclusão
+# 3. Conclusão
 
 O projeto atingiu seu objetivo principal de desenvolver um Sistema de Cadastro de Usuários funcional e documentado, utilizando o Flask como backend e o SQLite como banco de dados.
