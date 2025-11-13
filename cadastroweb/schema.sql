@@ -4,6 +4,7 @@ CREATE TABLE IF NOT EXISTS usuario (
   email TEXT NOT NULL UNIQUE,
   senha_hash TEXT NOT NULL,
   cpf TEXT UNIQUE,
+  endereço TEXT,
   telefone TEXT,
   perfil TEXT DEFAULT 'usuario',
   criado_em DATETIME DEFAULT (datetime('now'))
