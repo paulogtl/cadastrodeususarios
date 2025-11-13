@@ -65,7 +65,7 @@ As senhas devem ser armazenadas em formato de hash e o sistema deve validar dado
 # RELATÓRIO FINAL – SISTEMA DE CADASTRO DE USUÁRIOS
 . Introdução
 
-O nosso relatório apresento o Sistema de Cadastro de Usuários, realizado em duas etapas principais: FASE 1 (Frontend) e FASE 2 (Backend e Banco de Dados).
+O nosso relatório apresenta o Sistema de Cadastro de Usuários, realizado em duas etapas principais: FASE 1 (Documentação e Frontend) e FASE 2 (Backend e Banco de Dados).
 O projeto visa criar uma aplicação funcional capaz de registrar, armazenar e gerenciar informações de usuários, utilizando tecnologias web modernas e banco de dados relacional.
 
 # Objetivos do Projeto
