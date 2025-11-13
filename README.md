@@ -78,9 +78,9 @@ Utilizar o Flask (framework em Python) e o SQLite para armazenar as informaçõe
 
 Elaborar a documentação completa do sistema.
 
-# 1. FASE 1 – Documentação
+# 1. FASE 1 – Documentação e Frontend
 
-Foi desenvolvido um protótipo funcional da interface do sistema em HTML e CSS, com os seguintes elementos:
+Foi desenvolvido um protótipo funcional da interface do sistema em  JavaScript, HTML e CSS, com os seguintes elementos:
 
 Tela inicial com formulário de cadastro de usuário.
 
