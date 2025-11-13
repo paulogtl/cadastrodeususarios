@@ -33,7 +33,6 @@ def index():
     return redirect(url_for('register'))
 
 @app.route('/register', methods=['GET','POST'])
-# app.py (Trecho corrigido da função register)
 
 @app.route('/register', methods=['GET','POST'])
 def register():
