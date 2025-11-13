@@ -92,7 +92,8 @@ Layout responsivo e visual limpo.
 
 # 2. FASE 2 –Banco de Dados e Backend
 
-# Flask é um microframework em Python.
+# Pesquisa sobre o Flask 
+Flask é um microframework em Python.
 Principais características:
 
 Leve e flexível.
@@ -111,4 +112,6 @@ Compatível com o Flask através da biblioteca sqlite3.
 
 # 3. Conclusão
 
+O desenvolvimento do Sistema de Cadastro de Usuários proporcionou uma experiência completa de criação de um sistema web, desde a fase de planejamento até a integração com o banco de dados.
+Durante o processo, foram aplicados conceitos fundamentais da engenharia de software, como levantamento de requisitos, modelagem de dados e separação entre camadas do sistema (frontend, backend e banco de dados).
 O projeto atingiu seu objetivo principal de desenvolver um Sistema de Cadastro de Usuários funcional e documentado, utilizando o Flask como backend e o SQLite como banco de dados.
