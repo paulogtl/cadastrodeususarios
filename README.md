@@ -93,16 +93,24 @@ Layout responsivo e visual limpo.
 # 2. FASE 2 –Banco de Dados e Backend
 
 # Pesquisa sobre o Flask 
-Flask é um microframework em Python.
-Principais características:
+O Flask é um framework web em Python, ou seja, uma ferramenta que facilita criar sites e sistemas com backend.
+Ele é chamado de microframework porque é leve e simples, mas ainda assim muito poderoso.
+Com ele, você pode:
 
+Enviar e receber dados entre o site e o servidor;
+Conectar seu site a um banco de dados, como o SQLite;
+Construir APIs (interfaces de comunicação entre sistemas).
+
+Além dele também ser:
 Leve e flexível.
 Facilmente integrável com HTML e CSS.
 Permite conexão com bancos de dados como SQLite, MySQL e PostgreSQL.
 Possui sistema de rotas e templates (Jinja2).
 
 # Pesquisa sobre o SQLite
-SQLite é um banco de dados relacional leve e embutido.
+O SQLite é um banco de dados leve que não precisa de servidor.
+Os dados são guardados dentro de um único arquivo no seu computador.
+Ele é ótimo para projetos pequenos pois é rápido e fácil de configurar.
 Características:
 
 Armazena dados em um único arquivo .db.
