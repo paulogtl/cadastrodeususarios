@@ -33,23 +33,31 @@ def index():
     return redirect(url_for('register'))
 
 @app.route('/register', methods=['GET','POST'])
+# app.py (Trecho corrigido da função register)
+
+@app.route('/register', methods=['GET','POST'])
 def register():
     if request.method == 'POST':
         nome = request.form['nome']
         email = request.form['email']
         cpf = request.form.get('cpf')
         senha = request.form['senha']
+        
+        endereco = request.form.get('endereco') 
+        telefone = request.form.get('telefone') 
+        
         senha_hash = generate_password_hash(senha)
         db = get_db()
         try:
-            db.execute("INSERT INTO usuario (nome,email,senha_hash,cpf) VALUES (?,?,?,?)",
-                       (nome,email,senha_hash,cpf))
+            db.execute("INSERT INTO usuario (nome,email,senha_hash,cpf,endereco,telefone) VALUES (?,?,?,?,?,?)",
+                       (nome, email, senha_hash, cpf, endereco, telefone))
             db.commit()
             flash('Usuário cadastrado com sucesso!', 'success')
             return redirect(url_for('register'))
-        except sqlite3.IntegrityError as e:
+        except sqlite3.IntegrityError:
             flash('Erro: email ou CPF já cadastrado.', 'error')
-    return render_template('register.html')
+            
+    return render_template('registro.html')
 
 if __name__ == '__main__':
     os.makedirs(os.path.join(os.path.dirname(__file__), 'instance'), exist_ok=True)
